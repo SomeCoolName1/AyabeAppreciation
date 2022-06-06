@@ -49,7 +49,7 @@ a {
 /* FIRSTCONTAINERWALLPAPER --------------------------------------------*/
 
 .firstContainer {
-  background: url(https://github.com/SomeCoolName1/AyabeAppreciation/blob/main/Images/tracenAcademy.png?raw=true);
+  background: url("Images/tracenAcademy.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -163,7 +163,7 @@ a {
 
 .thirdContent {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://github.com/SomeCoolName1/AyabeAppreciation/blob/main/Images/third.jpg?raw=true);
+    url("Images/third.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
