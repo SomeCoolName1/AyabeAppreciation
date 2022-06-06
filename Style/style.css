@@ -68,19 +68,15 @@ a {
   display: flex;
   background: rgba(0, 0, 0, 0.85);
   color: white;
-
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   border-radius: 25px;
   padding: 50px;
   gap: 100px;
   position: relative;
 }
-.firstText {
-  display: Flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .firstCard {
   text-align: center;
   font-size: 18px;
@@ -123,36 +119,45 @@ a {
 
 .secondContent {
   display: flex;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(50, 106, 182);
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: white;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 30px;
-  flex-wrap: wrap;
 }
 
 .secondTitle {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 900;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .reasonsBoxes {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .ult,
 .run,
 .victory,
-.dance,
-.unhappy {
+.dance {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 16px;
 }
+
+.AyabeGif {
+  border-radius: 10px;
+  border: 10px solid white;
+}
+
 /* SECONDCONTENT --------------------------------------------*/
 /* THIRDCONTENT --------------------------------------------*/
 
