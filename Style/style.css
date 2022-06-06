@@ -197,11 +197,11 @@ a {
 /* FOURCONTENT --------------------------------------------*/
 
 .fourthContent {
-  background: green;
+  background: rgb(50, 106, 182);
   color: white;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .fourthBox {
@@ -210,9 +210,12 @@ a {
   justify-content: space-between;
   align-items: center;
   background: black;
-  width: 750px;
+  width: 500px;
   border-radius: 10px;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .fourthText {
   color: white;
@@ -220,16 +223,22 @@ a {
   flex-direction: column;
 }
 
+.fourthButton {
+  border: 2px solid rgb(50, 106, 182);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* FOURCONTENT --------------------------------------------*/
 
 /* FOOTER --------------------------------------------*/
 .footer {
-  background: rgb(46, 46, 179);
+  background: #1f2937;
   color: white;
   display: flex;
   justify-content: center;
 
-  padding: 20px;
+  padding: 5px;
 }
 
 /* FOOTER --------------------------------------------*/
